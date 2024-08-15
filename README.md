@@ -1,7 +1,7 @@
 # ninja-speedi
-A collection of recipies, times and formulas for ninja speedi. URL: https://danielsada.github.io/ninja-speedi/
+A collection of Recipes, times and formulas for ninja speedi. URL: https://danielsada.github.io/ninja-speedi/
 
-I love my ninja speedi, but I'm afraid the recipes, times and everything might get lost over time. I want to make sure I have the recipies and calculators here. 
+I love my ninja speedi, but I'm afraid the recipes, times and everything might get lost over time. I want to make sure I have the Recipes and calculators here. 
 
 This intends to have in the future:
 - A calculator for custom meals

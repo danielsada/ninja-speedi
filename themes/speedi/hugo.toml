@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-US'
-title = 'Ninja Speedi Recipies'
+title = 'Ninja Speedi Recipes'
 
 # [[menus.main]]
 # name = 'Home'

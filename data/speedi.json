@@ -1,86 +1,215 @@
 {
     "air_roast": {
         "chicken_breast": {
-            "range_minutes_start": 1320,
-            "range_minutes_end": 1500,
+            "amount": "1 piece",
+            "temperature": 400,
+            "time_to_cook": {
+                "range_minutes_start": 1080,
+                "range_minutes_end": 1320
+            },
             "cook_time_per_unit": 240
         },
         "salmon": {
-            "range_minutes_start": 720,
-            "range_minutes_end": 900,
+            "amount": "1 fillet",
+            "temperature": 375,
+            "time_to_cook": {
+                "range_minutes_start": 720,
+                "range_minutes_end": 900
+            },
             "cook_time_per_unit": 150
         },
         "vegetables": {
-            "range_minutes_start": 900,
-            "range_minutes_end": 1200,
+            "amount": "1 cup",
+            "temperature": 400,
+            "time_to_cook": {
+                "range_minutes_start": 900,
+                "range_minutes_end": 1200
+            },
             "cook_time_per_unit": 180
         }
     },
     "bake": {
         "muffins": {
-            "range_minutes_start": 720,
-            "range_minutes_end": 900,
+            "amount": "1 muffin",
+            "temperature": 350,
+            "time_to_cook": {
+                "range_minutes_start": 720,
+                "range_minutes_end": 900
+            },
             "cook_time_per_unit": 90
         },
         "cookies": {
-            "range_minutes_start": 600,
-            "range_minutes_end": 720,
+            "amount": "1 cookie",
+            "temperature": 350,
+            "time_to_cook": {
+                "range_minutes_start": 600,
+                "range_minutes_end": 720
+            },
             "cook_time_per_unit": 45
         },
         "bread": {
-            "range_minutes_start": 1500,
-            "range_minutes_end": 1800,
+            "amount": "1 loaf",
+            "temperature": 375,
+            "time_to_cook": {
+                "range_minutes_start": 1500,
+                "range_minutes_end": 1800
+            },
             "cook_time_per_unit": 240
         }
     },
     "steam_and_crisp": {
-        "chicken_thighs": {
-            "range_minutes_start": 1200,
-            "range_minutes_end": 1500,
-            "cook_time_per_unit": 210
+        "potatoes_russet": {
+            "amount": "4 potatoes",
+            "temperature": 450,
+            "time_to_cook": {
+                "range_minutes_start": 2100,
+                "range_minutes_end": 2520
+            },
+            "cook_time_per_unit": 420,
+            "oil": "1 tbsp",
+            "water": "1/4 cup",
+            "orientation": "whole, pierced"
+        },
+        "sweet_potatoes": {
+            "amount": "2 lbs",
+            "temperature": 450,
+            "time_to_cook": {
+                "range_minutes_start": 1800,
+                "range_minutes_end": 2280
+            },
+            "cook_time_per_unit": 300,
+            "oil": "1 tbsp",
+            "water": "1/4 cup",
+            "orientation": "whole, pierced"
+        },
+        "spaghetti_squash": {
+            "amount": "2 lbs",
+            "temperature": 450,
+            "time_to_cook": {
+                "range_minutes_start": 2100,
+                "range_minutes_end": 2400
+            },
+            "cook_time_per_unit": 300,
+            "oil": "1 tbsp",
+            "water": "1/4 cup",
+            "orientation": "cut in half, seeded"
+        },
+        "winter_squash": {
+            "amount": "2 lbs",
+            "temperature": 450,
+            "time_to_cook": {
+                "range_minutes_start": 2100,
+                "range_minutes_end": 2400
+            },
+            "cook_time_per_unit": 300,
+            "oil": "1 tbsp",
+            "water": "1/4 cup",
+            "orientation": "cut in half, seeded"
+        },
+        "brussels_sprouts": {
+            "amount": "2 lbs",
+            "temperature": 450,
+            "time_to_cook": {
+                "range_minutes_start": 1800,
+                "range_minutes_end": 2100
+            },
+            "cook_time_per_unit": 300,
+            "oil": "1 tbsp",
+            "water": "1/4 cup",
+            "orientation": "whole"
+        },
+        "carrots": {
+            "amount": "2 lbs",
+            "temperature": 450,
+            "time_to_cook": {
+                "range_minutes_start": 1800,
+                "range_minutes_end": 2100
+            },
+            "cook_time_per_unit": 300,
+            "oil": "1 tbsp",
+            "water": "1/4 cup",
+            "orientation": "whole"
         },
         "broccoli": {
-            "range_minutes_start": 600,
-            "range_minutes_end": 720,
-            "cook_time_per_unit": 90
+            "amount": "2 lbs",
+            "temperature": 450,
+            "time_to_cook": {
+                "range_minutes_start": 1500,
+                "range_minutes_end": 1800
+            },
+            "cook_time_per_unit": 300,
+            "oil": "1 tbsp",
+            "water": "1/4 cup",
+            "orientation": "cut in florets"
         },
-        "potatoes": {
-            "range_minutes_start": 1080,
-            "range_minutes_end": 1320,
-            "cook_time_per_unit": 150
+        "cauliflower": {
+            "amount": "2 lbs",
+            "temperature": 450,
+            "time_to_cook": {
+                "range_minutes_start": 1500,
+                "range_minutes_end": 1800
+            },
+            "cook_time_per_unit": 300,
+            "oil": "1 tbsp",
+            "water": "1/4 cup",
+            "orientation": "cut in florets"
         }
     },
     "grill": {
         "steak": {
-            "range_minutes_start": 480,
-            "range_minutes_end": 720,
+            "amount": "1 steak",
+            "temperature": 450,
+            "time_to_cook": {
+                "range_minutes_start": 480,
+                "range_minutes_end": 720
+            },
             "cook_time_per_unit": 150
         },
         "pork_chops": {
-            "range_minutes_start": 600,
-            "range_minutes_end": 900,
+            "amount": "1 chop",
+            "temperature": 400,
+            "time_to_cook": {
+                "range_minutes_start": 600,
+                "range_minutes_end": 900
+            },
             "cook_time_per_unit": 150
         },
         "shrimp": {
-            "range_minutes_start": 300,
-            "range_minutes_end": 420,
+            "amount": "1 shrimp",
+            "temperature": 400,
+            "time_to_cook": {
+                "range_minutes_start": 300,
+                "range_minutes_end": 420
+            },
             "cook_time_per_unit": 45
         }
     },
     "air_fry": {
         "french_fries": {
-            "range_minutes_start": 1080,
-            "range_minutes_end": 1320,
+            "amount": "1 cup",
+            "temperature": 400,
+            "time_to_cook": {
+                "range_minutes_start": 1080,
+                "range_minutes_end": 1320
+            },
             "cook_time_per_unit": 150
         },
         "chicken_wings": {
-            "range_minutes_start": 1440,
-            "range_minutes_end": 1680,
+            "amount": "1 wing",
+            "temperature": 400,
+            "time_to_cook": {
+                "range_minutes_start": 1440,
+                "range_minutes_end": 1680
+            },
             "cook_time_per_unit": 210
         },
         "onion_rings": {
-            "range_minutes_start": 720,
-            "range_minutes_end": 900,
+            "amount": "1 ring",
+            "temperature": 400,
+            "time_to_cook": {
+                "range_minutes_start": 720,
+                "range_minutes_end": 900
+            },
             "cook_time_per_unit": 90
         }
     }

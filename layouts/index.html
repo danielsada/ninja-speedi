@@ -11,7 +11,35 @@
                     {{ $formatted := strings.FirstUpper $formatted }}
                     <div class="card-title">
                         <h2 class="text-xl font-semibold text-gray-800">{{$formatted}}</h2>
-                        <p class="text-sm text-gray-500">({{$y}})</p>
+                        {{ range $key, $value := $y }}
+                            {{ if eq $key "image" }}
+                                <img src="{{$value}}" alt="{{$formatted}}" class="w-full h-32 object-cover object-center">
+                            {{ else if eq $key "amount" }}
+                                <p class="text-sm text-gray-500">{{$value}}</p>
+                            {{ else if eq $key "temperature" }}
+                               <div class="text-sm text-gray-500 flex">
+                                   <div class="sbox inline-block" style="mask: url(svg/thermometer-half.svg) no-repeat center; background-color: gray;"></div>
+                                   <div class="text-gray-500" style="display: inline;">{{$value}}F&deg;</div>
+                               </div>
+                            {{ else if eq $key "time_to_cook" }}
+                                {{ $start := 0 }}
+                                {{ $end := 0 }}
+                                {{ range $i, $v := $value }}
+                                    {{ if eq $i "range_minutes_start" }}
+                                        {{ $start = $v }}
+                                    {{ else }}
+                                        {{ $end = $v }}
+                                    {{ end }}
+                                {{ end }}
+
+                                {{ $converted_start := div $start 60 }}
+                                {{ $converted_end := div $end 60 }}
+                                <p class="text-sm text-gray-500">Time: {{$converted_start}} to {{$converted_end}} minutes</p>
+                            {{ else if eq $key "description" }}
+                            {{ else }}
+                                <p class="text-sm text-gray-500">{{$key}}: {{$value}}</p>
+                            {{ end }}
+                        {{ end }}
                     </div>
                 </div>
                 {{ end }}

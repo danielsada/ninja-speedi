@@ -1,2 +1,5 @@
 {{ $css := resources.Get "css/main.css" }}
 <link rel="stylesheet" href="{{ $css.Permalink }}" media="screen">
+{{ $extra := resources.Get "css/extra.css" }}
+<link rel="stylesheet" href="{{ $extra.Permalink }}" media="screen">
+

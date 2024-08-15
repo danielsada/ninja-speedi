@@ -1,4 +1,4 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'Ninja Speedi Recipies'
+title = 'Ninja Speedi Recipes'
 theme = 'speedi'

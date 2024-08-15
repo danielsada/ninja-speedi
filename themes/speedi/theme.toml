@@ -1,0 +1,6 @@
+name = "speedi"
+description = "Speedi blog."
+
+[author]
+    name = "Daniel Sada"
+    homepage = "https://danielsada.tech"

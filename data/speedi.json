@@ -1,0 +1,87 @@
+{
+    "air_roast": {
+        "chicken_breast": {
+            "range_minutes_start": 1320,
+            "range_minutes_end": 1500,
+            "cook_time_per_unit": 240
+        },
+        "salmon": {
+            "range_minutes_start": 720,
+            "range_minutes_end": 900,
+            "cook_time_per_unit": 150
+        },
+        "vegetables": {
+            "range_minutes_start": 900,
+            "range_minutes_end": 1200,
+            "cook_time_per_unit": 180
+        }
+    },
+    "bake": {
+        "muffins": {
+            "range_minutes_start": 720,
+            "range_minutes_end": 900,
+            "cook_time_per_unit": 90
+        },
+        "cookies": {
+            "range_minutes_start": 600,
+            "range_minutes_end": 720,
+            "cook_time_per_unit": 45
+        },
+        "bread": {
+            "range_minutes_start": 1500,
+            "range_minutes_end": 1800,
+            "cook_time_per_unit": 240
+        }
+    },
+    "steam_and_crisp": {
+        "chicken_thighs": {
+            "range_minutes_start": 1200,
+            "range_minutes_end": 1500,
+            "cook_time_per_unit": 210
+        },
+        "broccoli": {
+            "range_minutes_start": 600,
+            "range_minutes_end": 720,
+            "cook_time_per_unit": 90
+        },
+        "potatoes": {
+            "range_minutes_start": 1080,
+            "range_minutes_end": 1320,
+            "cook_time_per_unit": 150
+        }
+    },
+    "grill": {
+        "steak": {
+            "range_minutes_start": 480,
+            "range_minutes_end": 720,
+            "cook_time_per_unit": 150
+        },
+        "pork_chops": {
+            "range_minutes_start": 600,
+            "range_minutes_end": 900,
+            "cook_time_per_unit": 150
+        },
+        "shrimp": {
+            "range_minutes_start": 300,
+            "range_minutes_end": 420,
+            "cook_time_per_unit": 45
+        }
+    },
+    "air_fry": {
+        "french_fries": {
+            "range_minutes_start": 1080,
+            "range_minutes_end": 1320,
+            "cook_time_per_unit": 150
+        },
+        "chicken_wings": {
+            "range_minutes_start": 1440,
+            "range_minutes_end": 1680,
+            "cook_time_per_unit": 210
+        },
+        "onion_rings": {
+            "range_minutes_start": 720,
+            "range_minutes_end": 900,
+            "cook_time_per_unit": 90
+        }
+    }
+}
